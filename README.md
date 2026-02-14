@@ -1,10 +1,10 @@
 # 1. Structure Breakdown
-The string is divided into four distinct parts:
-Position	  Symbol	           Meaning
-1st Char	  d or -	           d for Directory, - for Regular File
-Chars 2-4	  rwx	User (Owner):  What the creator can do
-Chars 5-7	  rwx	Group:         What members of the file's group can do
-Chars 8-10	rwx	Others:        What everyone else on the system can do
+| Position | Symbol | Meaning |
+| :--- | :---: | :--- |
+| **1st Char** | `d` or `-` | **d** for Directory, **-** for Regular File |
+| **Chars 2-4** | `rwx` | **User (Owner):** What the creator can do |
+| **Chars 5-7** | `rwx` | **Group:** What members of the file's group can do |
+| **Chars 8-10** | `rwx` | **Others:** What everyone else on the system can do |
 
 
 ## 2. Permission Types
